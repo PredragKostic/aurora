@@ -1,4 +1,6 @@
 //overide default colors
 //import bootsrap
-
+$theme-colors: (
+    "primary": #36b3a8
+);
 @import "../bootstrap/scss/bootstrap";

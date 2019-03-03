@@ -1,4 +1,51 @@
 body {
   font-family: "Releway", sans-serif; }
 
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3; }
+  .navbar .navbar-brand h3 {
+    font-weight: 100; }
+  .navbar .nav-item {
+    font-size: 1.4 rem; }
+    .navbar .nav-item .nav-link:hover {
+      transition: border 0.2s;
+      border-bottom: 1px solid white; }
+
+#showcase {
+  background: url(../images/main.jpg) bottom center/cover no-repeat;
+  height: 100vh;
+  min-height: 450px;
+  position: relative; }
+  #showcase #header {
+    z-index: 2; }
+    #showcase #header h1 {
+      font-family: "Questrial", sans-serif;
+      line-height: 1; }
+    #showcase #header #book {
+      font-size: 1.5rem;
+      border-radius: 2rem; }
+  #showcase #overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f; }
+    .navbar .nav-item .nav-link:hover {
+      border-bottom: none; }
+    .navbar #showcase {
+      min-height: 500px; }
+      .navbar #showcase h1 {
+        font-size: 4rem; } }
+
 /*# sourceMappingURL=custom.css.map */
