@@ -25,19 +25,19 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#showcase" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#icons" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Explore</a>
+                    <a href="#explore" class="nav-link">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#newsletter" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Book</a>
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#bookingModal">Book</a>
                 </li>
             </ul>
         </div>
@@ -51,11 +51,12 @@
             <h3 class="display-5 mb-0">MODERN CAMPING</h3>
             <h1 class="display-1">AURORA GROVE</h1>
             <p class="lead d-none d-md-block">Lorem ipsum dolor sit</p>
-            <button id="book" class="btn btn-lg btn-primary px-5">BOOK NOW</button>
+            <button id="book" class="btn btn-lg btn-primary px-5" data-toggle="modal" data-target="#bookingModal">BOOK
+                NOW</button>
         </div>
     </section>
 
-    <section>
+    <section id="icons">
         <div class="container text-center mt-5">
             <h2>YOU SHOW UP,WE PICH THE</h2>
             <div class="row">
@@ -83,7 +84,7 @@
 
     </section>
 
-    <section>
+    <section id="explore">
         <div class="container text-center mt-2 p-3">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <div class="row m-2">
@@ -91,7 +92,7 @@
                     <div class="card">
                         <img class="img-fluid" src="images/main.jpg" alt="">
                         <div class="card-body">
-                            <h2 class="card-title text-primary">Naslov</h2>      
+                            <h2 class="card-title text-primary">Naslov</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
                                 impedit!</p>
                             <a class="btn btn-lg btn-outline-primary" href="">Go somewehere</a>
@@ -112,6 +113,198 @@
             </div>
         </div>
     </section>
+    <section id="quotes">
+        <div class="container text-center mt-4">
+            <h3>WHAT OUR HAPPY CAMPERS ARE SAYENG</h3>
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote"></blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aliquid.</p>
+                    <footer class="blockquote-footer">Mark Twein</footer>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote"></blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aliquid.</p>
+                    <footer class="blockquote-footer">Mark Twein</footer>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote"></blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aliquid.</p>
+                    <footer class="blockquote-footer">Mark Twein</footer>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7 mb-3">
+                    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/2.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/1.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/3.jpg" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+                        <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+
+                        </a>
+                        <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h3>CAMPING MADE COZY</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eaque placeat quae
+                        reprehenderit officia rem est, perferendis facilis ea excepturi!</p>
+                    <a href="">See for yourself <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="conainer text-center mt-5">
+            <h3>WHAT OTHERS ARE SAYING</h3>
+            <h5 class="text-primary">#AURORAGROVE</h5>
+            <div class="row mt-4">
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/7.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img src="images/8.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container text-center mt-4">
+            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+            <blockquote class="blockquote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique porro harum, modi earum odio!
+                    Iste repellat maxime distinctio quos est architecto temporibus qui eligendi harum pariatur
+                    repudiandae deleniti labore rem consectetur inventore quam reiciendis dolores dolore nesciunt,
+                    repellendus ea molestiae adipisci. Debitis quisquam dicta iure exercitationem maxime voluptates
+                    nobis!</p>
+                <footer class="blockquote-footer">Mark Twein</footer>
+            </blockquote>
+        </div>
+    </section>
+    <section id="newsletter" class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</p>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <form action="" class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="text-control" placeholder="Your e-mail">
+                            <div class="input-group-append">
+                                <button class="btn-primary">Join Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="p-3 bg-secondary">
+        <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+            <li class="nav-item">
+                <a href="" class="nav-link text-white">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#explore" class="nav-link text-white">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+                <a href="#explore" class="nav-link text-white">EXPLORE</a>
+            </li>
+            <li class="nav-item">
+                <a href="#newsletter" class="nav-link text-white">CONTACT</a>
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" data-toggle="modal" data-target="#bookingModal">BOOK</a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New Booking</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out the form bellow and we will get back to you as soon as possible</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email Adress</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Number of Adults</label>
+                            <select class="form-control" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <select class="form-control" id="children">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">Aditional Requests</label>
+                            <textarea class="form-control" id="requests" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit Requests</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
